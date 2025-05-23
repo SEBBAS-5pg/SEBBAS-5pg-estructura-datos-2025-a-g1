@@ -9,7 +9,7 @@ public class AnimalService {
         animales.add(animal);
     }
     public void mostrarAcciiones(){
-        for(Animal a : animeales){
+        for(Animal a : animales){
             System.out.println("Nombre "+a.getNombre());
             a.comer();
             a.dormir();
